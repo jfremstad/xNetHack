@@ -3673,6 +3673,8 @@ getprice(register struct obj* obj, boolean shk_buying)
         if (obj->spe == -1)
             tmp = 0L;
         break;
+    case SPBOOK_CLASS:
+    case RING_CLASS:
     case SCROLL_CLASS:
         makeknown(obj->otyp);
         break;
