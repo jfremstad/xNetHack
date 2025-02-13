@@ -3660,6 +3660,7 @@ getprice(register struct obj* obj, boolean shk_buying)
         if (shk_buying)
             tmp /= 4;
     }
+
     switch (obj->oclass) {
     case FOOD_CLASS:
         /* simpler hunger check, (2-4)*cost */
@@ -3672,7 +3673,11 @@ getprice(register struct obj* obj, boolean shk_buying)
         if (obj->spe == -1)
             tmp = 0L;
         break;
+    case SCROLL_CLASS:
+        makeknown(obj->otyp);
+        break;
     case POTION_CLASS:
+        makeknown(obj->otyp);
         if (obj->otyp == POT_WATER && !obj->blessed && !obj->cursed)
             tmp = 0L;
         break;
