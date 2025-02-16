@@ -37,48 +37,48 @@ des.non_diggable(selection.area(00,00,25,16));
 des.non_passwall(selection.area(00,00,25,16));
 
 -- Boulders
-des.object("boulder",04,04);
-des.object("boulder",02,06);
-des.object("boulder",03,06);
-des.object("boulder",04,07);
-des.object("boulder",05,07);
-des.object("boulder",02,08);
-des.object("boulder",05,08);
-des.object("boulder",03,09);
-des.object("boulder",04,09);
-des.object("boulder",03,10);
-des.object("boulder",05,10);
-des.object("boulder",06,12);
+-- des.object("boulder",04,04);
+-- des.object("boulder",02,06);
+-- des.object("boulder",03,06);
+-- des.object("boulder",04,07);
+-- des.object("boulder",05,07);
+-- des.object("boulder",02,08);
+-- des.object("boulder",05,08);
+-- des.object("boulder",03,09);
+-- des.object("boulder",04,09);
+-- des.object("boulder",03,10);
+-- des.object("boulder",05,10);
+-- des.object("boulder",06,12);
 --
-des.object("boulder",07,14);
+-- des.object("boulder",07,14);
 --
-des.object("boulder",11,05);
-des.object("boulder",12,06);
-des.object("boulder",10,07);
-des.object("boulder",11,07);
-des.object("boulder",10,08);
-des.object("boulder",12,09);
-des.object("boulder",11,10);
+-- des.object("boulder",11,05);
+-- des.object("boulder",12,06);
+-- des.object("boulder",10,07);
+-- des.object("boulder",11,07);
+-- des.object("boulder",10,08);
+-- des.object("boulder",12,09);
+-- des.object("boulder",11,10);
 
 -- Traps
-des.trap("hole",05,01)
-des.trap("hole",06,01)
-des.trap("hole",07,01)
-des.trap("hole",08,01)
-des.trap("hole",09,01)
-des.trap("hole",10,01)
-des.trap("hole",11,01)
-des.trap("hole",12,01)
-des.trap("hole",13,01)
-des.trap("hole",14,01)
-des.trap("hole",15,01)
-des.trap("hole",16,01)
-des.trap("hole",17,01)
-des.trap("hole",18,01)
-des.trap("hole",19,01)
-des.trap("hole",20,01)
-des.trap("hole",21,01)
-des.trap("hole",22,01)
+-- des.trap("hole",05,01)
+-- des.trap("hole",06,01)
+-- des.trap("hole",07,01)
+-- des.trap("hole",08,01)
+-- des.trap("hole",09,01)
+-- des.trap("hole",10,01)
+-- des.trap("hole",11,01)
+-- des.trap("hole",12,01)
+-- des.trap("hole",13,01)
+-- des.trap("hole",14,01)
+-- des.trap("hole",15,01)
+-- des.trap("hole",16,01)
+-- des.trap("hole",17,01)
+-- des.trap("hole",18,01)
+-- des.trap("hole",19,01)
+-- des.trap("hole",20,01)
+-- des.trap("hole",21,01)
+-- des.trap("hole",22,01)
 
 des.monster({ id = "giant mimic", appear_as = "obj:boulder" });
 des.monster({ id = "giant mimic", appear_as = "obj:boulder" });
